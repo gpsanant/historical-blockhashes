@@ -3,7 +3,7 @@ if the claimed blockhash is from n blocks ago, the fraud proof will take O(log(n
 
 you could store the merkle root of all blockhashes up till a certain block number\
 (for users to verfiy before using your app), but this cannot be updated trustlessly so\
-it wouldn't work for recent blockhashes after the block number the snapshot was taken.\
+it wouldn't work for recent blockhashes after the block number the snapshot was taken.
 
 this is useful if you want ANY past blockhash, but only a a query by query basis\
 if you want every blockhash with eth security, you prob have to store all of them, or get\
